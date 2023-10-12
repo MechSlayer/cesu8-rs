@@ -14,4 +14,6 @@ documentation = "http://emk.github.io/cesu8-rs/cesu8/index.html"
 [features]
 # Allow access to unstable features when being built with a nightly compiler,
 # to keep travis-cargo happy and enable access to benchmarks if we want them.
+default = []
 unstable = []
+std = []
